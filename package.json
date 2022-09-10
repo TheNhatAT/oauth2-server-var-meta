@@ -1,0 +1,40 @@
+{
+  "name": "oauth2-server-var-meta",
+  "version": "1.0.6",
+  "description": "Custom version for sso-service from oauth2-server",
+  "main": "lib/oauth2server.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "bundleDependencies": false,
+  "author": {
+    "name": "Tu Dinh",
+    "email": "tutheblue@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Nhat Nguyen",
+      "email": "nhat.bka.64@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "basic-auth": "~0.0.1"
+  },
+  "deprecated": false,  "devDependencies": {
+    "body-parser": "~1.3.1",
+    "express": "~4.4.3",
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  },  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}
